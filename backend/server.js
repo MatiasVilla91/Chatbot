@@ -15,7 +15,7 @@ app.use(express.json());
 // Configuración para manejar solicitudes OPTIONS en /bot2
 app.options('/bot2', cors());
 
-const HUGGING_FACE_API_KEY = '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'; // Reemplaza con tu API Key
+const HUGGING_FACE_API_KEY = 'API_KEY'; // Reemplaza con tu API Key
 
 // Definición de la ruta POST /bot2
 app.post('/bot2', async (req, res) => {
